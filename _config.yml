@@ -36,3 +36,7 @@ jumbotron_icon: "img/jumbotron-logo.png"
 
 plugins:
   - jemoji
+
+
+kramdown:
+  auto_ids: true
