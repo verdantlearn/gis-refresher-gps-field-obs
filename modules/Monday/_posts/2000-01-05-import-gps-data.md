@@ -1,10 +1,9 @@
 ---
 title: Import GPS locations
-published: false
 ---
 
 ## Import your GPS locations
-*10 minutes*, included in the live session if you attend
+*15 minutes*, included in the live session if you attend
 
 The main aim of today is to **import your GPS locations** into your QGIS project.  We assume that you have already downloaded the WPT (waypoints) file from your GPS, or prepared a spreadsheet containing X and Y coordinates
 
@@ -86,7 +85,3 @@ For those of you who want more detail or visual instructions, here are the steps
 You're in luck!  :sweat_smile:  As you have a single file containing combined location data and field observations, you can complete the work for Monday, Tuesday *and* Wednesday in a single step!
 
 Follow the instructions in the [Importing .txt and .csv](#txt) section above
-
- <!-- [Importing combined data]({% link modules/Resources/_posts/2000-01-01-field-obs-wpts.md %}) in the Resources section for instructions -->
-
-

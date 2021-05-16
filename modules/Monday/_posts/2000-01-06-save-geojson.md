@@ -1,6 +1,5 @@
 ---
 title: Save GeoJSON
-published: false
 ---
 
 ## Save as GeoJSON or shapefile
