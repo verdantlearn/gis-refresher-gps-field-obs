@@ -35,15 +35,15 @@ For those of you who are confident with the basics of using QGIS, here are the s
 For those of you who want more detail or visual instructions, here are the steps including screenshots:
 
 - `Layer > Add Layer > Add vector layer...`
-<center><img src="/img/add-vector-qgis-018.png" alt="QGIS screenshot: Add vector layer"></center>
+<center><img src="{{site.baseurl}}/img/add-vector-qgis-018.png" alt="QGIS screenshot: Add vector layer"></center>
 
 - Choose source file - click the `...` button
-<center><img src="/img/add-vector-qgis-020.png" alt="QGIS screenshot: Choose data source"></center>
+<center><img src="{{site.baseurl}}/img/add-vector-qgis-020.png" alt="QGIS screenshot: Choose data source"></center>
 <br>
-<center><img src="/img/add-vector-qgis-022.png" alt="QGIS screenshot: Choose gpx file"></center>
+<center><img src="{{site.baseurl}}/img/add-vector-qgis-022.png" alt="QGIS screenshot: Choose gpx file"></center>
 
 - Select only the Waypoints (unless you also have tracks and routes in your .gpx file)
-<center><img src="/img/add-vector-qgis-033.png" alt="QGIS screenshot: Only import waypoints"></center>
+<center><img src="{{site.baseurl}}/img/add-vector-qgis-033.png" alt="QGIS screenshot: Only import waypoints"></center>
 
 - Click `Add` and `Close`
 
@@ -68,13 +68,13 @@ For those of you who want more detail or visual instructions, here are the steps
 
 - `Layer > Add Layer > Add Delimited Text Layer...`
 
-<center><img src="/img/add-text-qgis-013.png" alt="QGIS screenshot: Add delimited text layer"></center>
+<center><img src="{{site.baseurl}}/img/add-text-qgis-013.png" alt="QGIS screenshot: Add delimited text layer"></center>
 
 - Choose source file - click the `...` button
-<center><img src="/img/add-text-qgis-019.png" alt="QGIS screenshot: Choose text file"></center>
+<center><img src="{{site.baseurl}}/img/add-text-qgis-019.png" alt="QGIS screenshot: Choose text file"></center>
 
 - Ensure `Point coordinates` is selected under `Geometry Definition`, and specify which columns contain the X and Y coordinates 
-<center><img src="/img/add-text-qgis-033.png" alt="QGIS screenshot: Specify X and Y columns"></center>
+<center><img src="{{site.baseurl}}/img/add-text-qgis-033.png" alt="QGIS screenshot: Specify X and Y columns"></center>
 
 - Click `Add` and `Close`
 
