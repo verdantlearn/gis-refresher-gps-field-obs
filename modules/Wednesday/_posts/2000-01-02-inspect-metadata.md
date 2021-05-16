@@ -1,17 +1,19 @@
 ---
-title: Inspect metadata
+title: Join data
 published: false
 ---
 
-## Inspect the metadata
-*15 minutes*
+## Join field obs to locations
+*xx minutes*
 
-Out of all the datasets you're now aware of, **choose one** that shows promise to fulfil your needs
-
-Investigate your chosen dataset's `metadata` - the detailed information about the dataset, which may include:
-- What **type of observations** the dataset contains
-- Any **codes** or lookup tables that indicate what the data values represent
-- **When** and **where** the data were collected
-- **How** they were collected (what instruments or survey methods were used), and by whom
-- How often the area is **resurveyed** 
-
+4. Join field obs to .geojson
+   1. Right-click on 'waterbeetles.geojson' > Properties
+   2. Join tab
+   3. Select correct layer to join
+   4. Select correct join column in *which layer?* 
+   5. Select correct join column in *which layer?* 
+5. Save as .geojson 
+   1. Right-click on 'waterbeetles.geojson' > Export
+   2. File type = .geojson
+   3. Don't save 'name' column
+   4. Specify Date as Date/Time format

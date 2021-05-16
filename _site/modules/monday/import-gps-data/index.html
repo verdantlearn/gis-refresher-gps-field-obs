@@ -55,7 +55,7 @@
       
        
        <li class="nav-item py-2 active">
-         <a class="nav-link" href="/modules/monday/intro-temp/">
+         <a class="nav-link" href="/modules/monday/mon-intro/">
            Monday
          </a>
        </li>
@@ -130,7 +130,7 @@
 	<ul>
 		
 			<li class=" first ">
-				<a href="/modules/monday/intro-temp/">
+				<a href="/modules/monday/mon-intro/">
 					Monday intro
 				</a>
 			</li>
@@ -160,8 +160,8 @@
 			</li>
 		
 			<li class="  last">
-				<a href="/modules/monday/mon-intro/">
-					Monday intro
+				<a href="/modules/monday/save-geojson/">
+					Save GeoJSON
 				</a>
 			</li>
 		
@@ -180,78 +180,117 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<h1 id="steps">Steps</h1>
-<ol>
-  <li>Add .gpx file (or text file) to project</li>
-  <li>Save as .geojson
-    <ol>
-      <li>Right-click on .gpx &gt; Export &gt; Save Features As…</li>
-      <li>Format = .geojson</li>
-      <li>File name: click … button, choose a location and name</li>
-      <li>Only save ‘name’ field, which contains WPT</li>
-    </ol>
-  </li>
-  <li>Add field obs to project
-    <ol>
-      <li>Nothing is drawn on the map</li>
-      <li>Examine attributes</li>
-    </ol>
-  </li>
-  <li>Join field obs to .geojson
-    <ol>
-      <li>Right-click on ‘waterbeetles.geojson’ &gt; Properties</li>
-      <li>Join tab</li>
-      <li>Select correct layer to join</li>
-      <li>Select correct join column in <em>which layer?</em>
-</li>
-      <li>Select correct join column in <em>which layer?</em>
-</li>
-    </ol>
-  </li>
-  <li>Save as .geojson
-    <ol>
-      <li>Right-click on ‘waterbeetles.geojson’ &gt; Export</li>
-      <li>File type = .geojson</li>
-      <li>Don’t save ‘name’ column</li>
-      <li>Specify Date as Date/Time format</li>
-    </ol>
-  </li>
-  <li>Visualise your layer
-    <ol>
-      <li>Categories: Families</li>
-      <li>Quantitative: ?Date</li>
-    </ol>
-  </li>
-  <li>
-</ol>
+				<h2 id="import-your-gps-locations">Import your GPS locations</h2>
+<p><em>10 minutes</em>, included in the live session if you attend</p>
 
-<h2 id="import-your-gps-locations">Import your GPS locations</h2>
-<p><em>xx minutes</em>, included in the live session if you attend</p>
-
-<p>The main aim of today is to import your GPS locations into your QGIS project.  We assume that you have already downloaded the WPT (waypoints) file from your GPS, or prepared a spreadsheet containing X and Y coordinates</p>
+<p>The main aim of today is to <strong>import your GPS locations</strong> into your QGIS project.  We assume that you have already downloaded the WPT (waypoints) file from your GPS, or prepared a spreadsheet containing X and Y coordinates</p>
 
 <p>We anticipate that your location data may be in one of several different formats:</p>
 <ol>
   <li>If your locations are in <code class="language-plaintext highlighter-rouge">.gpx</code> file format, as <strong>downloaded from a GPS</strong>, go to the <a href="#gpx">Importing .gpx</a> section below</li>
-  <li>If you have a <strong>spreadsheet</strong> e.g. <code class="language-plaintext highlighter-rouge">.txt</code> or <code class="language-plaintext highlighter-rouge">.csv </code>containing <em>only</em> locations, go to the <a href="#gpx">Importing .txt</a> section below</li>
+  <li>If you have a <strong>spreadsheet containing <em>only</em> locations</strong> e.g. <code class="language-plaintext highlighter-rouge">.txt</code> or <code class="language-plaintext highlighter-rouge">.csv </code>, go to the <a href="#txt">Importing .txt or .csv</a> section below</li>
   <li>If you have a single file with <strong>locations <em>and</em> field data combined</strong>, go to the <a href="#combined">Combined data</a> section below</li>
 </ol>
 
-<p>Remember that you can always as for assistance in the <img class="emoji" title=":raised_hand:" alt=":raised_hand:" src="https://github.githubassets.com/images/icons/emoji/unicode/270b.png" height="20" width="20"> <a href="https://padlet.com/VerdantLearn_LT/GISRefresher2_HelpArea_May2021"><strong>Help Area</strong></a> for this course if you get stuck</p>
+<p>When importing GPX files, QGIS should automatically recognise the <strong>Spatial Reference System</strong>, otherwise known as the <em>projection</em> or <em>Coordinate Reference System (CRS)</em>.  However, if you’re importing another file format, you will probably need to specify the Spatial Reference System.</p>
+
+<p>Remember that you can always ask for assistance in the <img class="emoji" title=":raised_hand:" alt=":raised_hand:" src="https://github.githubassets.com/images/icons/emoji/unicode/270b.png" height="20" width="20"> <a href="https://padlet.com/VerdantLearn_LT/GISRefresher2_HelpArea_May2021"><strong>Help Area</strong></a> for this course if you get stuck</p>
 
 <h3 id="gpx">Importing .gpx</h3>
 
-<p><strong>Instructions</strong></p>
+<p>Assuming you downloaded your locations as a .gpx file, follow these instructions to add your field locations to your QGIS project</p>
 
-<h3 id="txt">Importing .txt</h3>
+<p>For those of you who are confident with the basics of using QGIS, here are the steps, without screenshots:</p>
+<blockquote>
+  <ol>
+    <li>Layer &gt; Add Layer &gt; Add vector layer…</li>
+    <li>Choose source file - click the […] button</li>
+    <li>Select only the Waypoints (unless you also have tracks and routes in your .gpx file)</li>
+    <li>Click Add and Close</li>
+  </ol>
+</blockquote>
 
-<p>If your location data are in a spreadsheet format, please ensure they are saved as <em>tab-delimited</em> spreadsheets (<strong>.txt</strong>), where columns are separated by a tab character.  We will use tab-delimited instead of comma-delimited (.csv = columns separated by a comma) to avoid any complications in regions where commas are used to indicate decimal places, or thousands.  If you’re comfortable working with .cvs files then you can choose to work with that format instead</p>
+<p><br></p>
+
+<p>For those of you who want more detail or visual instructions, here are the steps including screenshots:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Layer &gt; Add Layer &gt; Add vector layer...</code></li>
+</ul>
+<center><img src="/img/add-vector-qgis-018.png" alt="QGIS screenshot: Add vector layer"></center>
+
+<ul>
+  <li>Choose source file - click the <code class="language-plaintext highlighter-rouge">...</code> button</li>
+</ul>
+<center><img src="/img/add-vector-qgis-020.png" alt="QGIS screenshot: Choose data source"></center>
+<p><br></p>
+<center><img src="/img/add-vector-qgis-022.png" alt="QGIS screenshot: Choose gpx file"></center>
+
+<ul>
+  <li>Select only the Waypoints (unless you also have tracks and routes in your .gpx file)</li>
+</ul>
+<center><img src="/img/add-vector-qgis-033.png" alt="QGIS screenshot: Only import waypoints"></center>
+
+<ul>
+  <li>Click <code class="language-plaintext highlighter-rouge">Add</code> and <code class="language-plaintext highlighter-rouge">Close</code>
+</li>
+</ul>
+
+<h3 id="txt">Importing .txt or .csv</h3>
+
+<p>If your location data are in a spreadsheet format, save them either as:</p>
+<ul>
+  <li>
+<em>tab-delimited</em> spreadsheets (<strong>.txt</strong>), where columns are separated by a tab character, or</li>
+  <li>
+<em>comma-delimited</em> (<strong>.csv</strong>), with columns separated by a comma</li>
+</ul>
+
+<p>It’s your choice which format to use; whichever you are most comfortable with, or works best depending on e.g. regional use of commas to indicate decimal places</p>
+
+<p>For those of you who are confident with the basics of using QGIS, here are the steps without screenshots:</p>
+<blockquote>
+  <ol>
+    <li><code class="language-plaintext highlighter-rouge">Layer &gt; Add Layer &gt; Add Delimited Text Layer...</code></li>
+    <li>Choose source file - click the <code class="language-plaintext highlighter-rouge">...</code> button</li>
+    <li>Ensure <code class="language-plaintext highlighter-rouge">Point coordinates</code> is selected under <code class="language-plaintext highlighter-rouge">Geometry Definition</code>, and specify which columns contain the X and Y coordinates</li>
+    <li>Click <code class="language-plaintext highlighter-rouge">Add</code> and <code class="language-plaintext highlighter-rouge">Close</code>
+</li>
+  </ol>
+</blockquote>
+
+<p><br></p>
+
+<p>For those of you who want more detail or visual instructions, here are the steps including screenshots:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Layer &gt; Add Layer &gt; Add Delimited Text Layer...</code></li>
+</ul>
+
+<center><img src="/img/add-text-qgis-013.png" alt="QGIS screenshot: Add delimited text layer"></center>
+
+<ul>
+  <li>Choose source file - click the <code class="language-plaintext highlighter-rouge">...</code> button</li>
+</ul>
+<center><img src="/img/add-text-qgis-019.png" alt="QGIS screenshot: Choose text file"></center>
+
+<ul>
+  <li>Ensure <code class="language-plaintext highlighter-rouge">Point coordinates</code> is selected under <code class="language-plaintext highlighter-rouge">Geometry Definition</code>, and specify which columns contain the X and Y coordinates</li>
+</ul>
+<center><img src="/img/add-text-qgis-033.png" alt="QGIS screenshot: Specify X and Y columns"></center>
+
+<ul>
+  <li>Click <code class="language-plaintext highlighter-rouge">Add</code> and <code class="language-plaintext highlighter-rouge">Close</code>
+</li>
+</ul>
 
 <h3 id="combined">Combined data</h3>
 
-<p>You’re in luck!  <img class="emoji" title=":sweat_smile:" alt=":sweat_smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png" height="20" width="20">  As you have a single file containing your location data and field observations combined, you can complete the work for Monday, Tuesday <em>and</em> Wednesday in a single step!</p>
+<p>You’re in luck!  <img class="emoji" title=":sweat_smile:" alt=":sweat_smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png" height="20" width="20">  As you have a single file containing combined location data and field observations, you can complete the work for Monday, Tuesday <em>and</em> Wednesday in a single step!</p>
 
-<p>See <a href="/modules/resources/field-obs-wpts/">Importing combined data</a> in the Resources section for instructions</p>
+<p>Follow the instructions in the <a href="#txt">Importing .txt and .csv</a> section above</p>
+
+<p><!-- [Importing combined data](/modules/resources/field-obs-wpts/) in the Resources section for instructions --></p>
 
 
 				
@@ -276,7 +315,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/monday/mon-intro/"> Monday intro
+						<a rel="next" class="next" href="/modules/monday/save-geojson/"> Save GeoJSON
 						</a>
 					</div>
 				

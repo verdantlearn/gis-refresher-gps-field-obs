@@ -13,6 +13,4 @@ We'll use the same Zoom link for **all** live sessions this week: [https://us02w
 
 During your chosen live session, we will work together to complete all of the learning activities for today
 
-If you're not able to join either of the live sessions, you can work solo to contribute your ideas to the collaborative documents.  You'll find links to these on the following pages
-
-> Under construction
+If you're not able to join either of the live sessions, you can work solo to contribute your ideas to the collaborative documents embedded in the following pages
