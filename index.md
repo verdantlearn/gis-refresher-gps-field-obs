@@ -12,7 +12,7 @@ This course will run **17-21 May 2021**
 
 This course is authored and taught by ***Lucy Tallents***, director of **VerdantLearn**.  For more information about Lucy, see her [LinkedIn profile](https://uk.linkedin.com/in/lucytallents) or [blog](https://www.lucytallents.com/tags)
 
-<center><img src="/img/LucyRainbowBridge_Square.jpeg" alt="Lucy portrait"></center>
+<center><img src="{{site.baseurl}}/img/LucyRainbowBridge_Square.jpeg" alt="Lucy portrait"></center>
 
 <br> 
 
