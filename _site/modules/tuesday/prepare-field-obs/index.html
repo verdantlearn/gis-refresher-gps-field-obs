@@ -11,7 +11,7 @@
   <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
   <meta charset="utf-8">
   <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
-  <title>Combine GPS and field data | Live session</title>
+  <title>Combine GPS and field data | Prepare field obs</title>
   
   <meta name="description" content="A short GIS refresher course for wildlife conservation professionals and students, built by Dr Lucy Tallents for VerdantLearn">
   <meta name="author" content="">
@@ -54,14 +54,14 @@
        </li>
       
        
-       <li class="nav-item py-2 active">
+       <li class="nav-item py-2">
          <a class="nav-link" href="/modules/monday/mon-intro/">
            Monday
          </a>
        </li>
       
        
-       <li class="nav-item py-2">
+       <li class="nav-item py-2 active">
          <a class="nav-link" href="/modules/tuesday/tues-intro/">
            Tuesday
          </a>
@@ -122,63 +122,39 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="/modules/pre-course/pre-course-survey/">
-				Pre-course </a>
+			<a rel="prev" class="prev" href="/modules/monday/mon-intro/">
+				Monday </a>
 		</div>
-		<hr />
+		<hr>
 	
 	<ul>
 		
 			<li class=" first ">
-				<a
-						href="/modules/monday/mon-intro/">
-					Monday intro
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/monday/self-intro/">
-					Self-introductions
+				<a href="/modules/tuesday/tues-intro/">
+					Tuesday intro
 				</a>
 			</li>
 		
 			<li class="active  ">
-				<a
-						href="/modules/monday/live-session/">
-					Live session
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/monday/your-field-data/">
-					Your field data
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/monday/import-gps-data/">
-					Import GPS locations
+				<a href="/modules/tuesday/prepare-field-obs/">
+					Prepare field obs
 				</a>
 			</li>
 		
 			<li class="  last">
-				<a
-						href="/modules/monday/save-geojson/">
-					Save GeoJSON
+				<a href="/modules/tuesday/add-field-obs/">
+					Import field obs
 				</a>
 			</li>
 		
 	</ul>
 	
-		<hr />
+		<hr>
 		<div class="pagination-section">
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="/modules/tuesday/tues-intro/"> Tuesday
+			<a rel="next" class="next" href="/modules/wednesday/intro-temp/"> Wednesday
 			</a>
 		</div>
 	
@@ -186,20 +162,39 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<h2 id="join-the-live-session-on-zoom">Join the live session on Zoom</h2>
-<p><em>45 minutes</em></p>
+				<h2 id="prepare-your-field-data">Prepare your field data</h2>
+<p><em>10-30 minutes</em>, or more if your data need a lot of cleaning!</p>
 
-<p>If you can, join Monday’s live Zoom session, choosing either of:</p>
+<p>Today’s GIS exercises are all about <strong>add your fieldwork data</strong> to the map.  These data are the information you have collected at each location of your field surveys.  On this page we cover how to ensure that your data are formatted correctly for use in a GIS project, and on the next page we import them into QGIS</p>
+
 <ul>
-  <li>Earlier session, at 09:30 BST (London) <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Monday+early+session&amp;iso=20210517T0930&amp;p1=136&amp;am=45">Check time in your timezone</a></li>
-  <li>Later session, at 15:30 BST (London) <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Monday+late+session&amp;iso=20210517T1530&amp;p1=136&amp;am=45">Check time in your timezone</a></li>
+  <li>If you have your own survey data, follow the steps under <a href="#yourData">Use your own field observations</a>
+</li>
+  <li>If you’re doing these exercises using the <em>example</em> dataset on water beetles, go straight to the <a href="#exampleData">Use our example dataset</a> section below</li>
 </ul>
 
-<p>We’ll use the same Zoom link for <strong>all</strong> live sessions this week: <a href="https://us02web.zoom.us/j/82834870945?pwd=RDdYczVIZHlWdk4yN3B2dUJxMk9jdz09">https://us02web.zoom.us/j/82834870945?pwd=RDdYczVIZHlWdk4yN3B2dUJxMk9jdz09</a></p>
+<h3 id="yourData">Use your own field observations</h3>
 
-<p>During your chosen live session, we will work together to complete all of the learning activities for today</p>
+<p>Before importing your field observations into QGIS, you need to ensure they are clean and consistent.  A good way to check for problems is to open your data in Excel and use the Filter or Pivot Table tools to examine them</p>
 
-<p>If you’re not able to join either of the live sessions, you can work solo to contribute your ideas to the collaborative documents embedded in the following pages</p>
+<ol>
+  <li>Include a column <strong>waypoint name</strong>
+</li>
+  <li>Do you have missing datapoints, and are they indicated the same way throughout the dataset?  QGIS can cope with empty cells, and empty cells is the best way to, unless you also have sites that were not surveyed, in which an empty cell might be ambiguous, and you should include</li>
+  <li>Check that <strong>categorical</strong> data are consistent i.e. species/site names or vegetation types are always spelled the same way.  Do you have the correct number of categories?</li>
+  <li>Check that <strong>quantitative</strong> data make sense.  Are there any extreme values (much lower or higher than expected) which might indicate a misplaced decimal point or typing error?</li>
+  <li>Check that <strong>dates and times</strong> are recorded in a standardised fashion e.g. yyyy-mm-dd, or hh:mm</li>
+</ol>
+
+<h3 id="exampleData">Use our example dataset</h3>
+
+<p>If you’re working with the water beetle dataset, you can download it from the Resources section of the course above <img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"></p>
+
+<p>With all new and unfamiliar datasets, we always recommend that you look at the data to familiarise yourself with it before doing anything further, such as adding it to your GIS project or analysing it</p>
+
+<p>Open the .csv file in your usual spreadsheet software (e.g. Excel) and view the column headers.  Do they make sense to you?  Do you understand what data each column contains?</p>
+
+<!-- Add screenshot of dataset, plus metadata on each column -->
 
 				
 
@@ -207,15 +202,15 @@
 
 
 
-				<hr />
+				<hr>
         <div class="row">
 					<div class="pagination-section col-sm-6">
 				
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="/modules/monday/self-intro/">
-							Self-introductions </a>
+						<a rel="prev" class="prev" href="/modules/tuesday/tues-intro/">
+							Tuesday intro </a>
 				
 					</div>
 				
@@ -223,7 +218,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/monday/your-field-data/"> Your field data
+						<a rel="next" class="next" href="/modules/tuesday/add-field-obs/"> Import field obs
 						</a>
 					</div>
 				
@@ -244,15 +239,9 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="/js/init.js"></script>
   <script src="/js/gh_link_helper.js"></script>
 

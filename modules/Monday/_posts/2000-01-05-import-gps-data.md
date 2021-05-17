@@ -85,3 +85,5 @@ For those of you who want more detail or visual instructions, here are the steps
 You're in luck!  :sweat_smile:  As you have a single file containing combined location data and field observations, you can complete the work for Monday, Tuesday *and* Wednesday in a single step!
 
 Follow the instructions in the [Importing .txt and .csv](#txt) section above
+
+If you have any problems, first check the page 'Prepare field obs' in Tuesday's module, to see if you can identify parts of your dataset that need cleaning or correcting 

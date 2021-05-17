@@ -1,6 +1,5 @@
 ---
 title: Tuesday intro
-published: false
 ---
 
 ## Learning objective
@@ -10,4 +9,5 @@ Today's learning objective is:
 
 ## Tasks
 Here are your tasks to help you achieve this learning objective.  Detailed instructions are on the next pages:
-1. **Introduce yourself** on the course map, and reply to someone else (**5** minutes)
+1. **Prepare** your field data (**10-30** minutes)
+2. **Add** your field observations to QGIS (**10-15** minutes)

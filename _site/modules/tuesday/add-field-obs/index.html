@@ -11,7 +11,7 @@
   <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
   <meta charset="utf-8">
   <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
-  <title>Combine GPS and field data | Live session</title>
+  <title>Combine GPS and field data | Import field obs</title>
   
   <meta name="description" content="A short GIS refresher course for wildlife conservation professionals and students, built by Dr Lucy Tallents for VerdantLearn">
   <meta name="author" content="">
@@ -54,14 +54,14 @@
        </li>
       
        
-       <li class="nav-item py-2 active">
+       <li class="nav-item py-2">
          <a class="nav-link" href="/modules/monday/mon-intro/">
            Monday
          </a>
        </li>
       
        
-       <li class="nav-item py-2">
+       <li class="nav-item py-2 active">
          <a class="nav-link" href="/modules/tuesday/tues-intro/">
            Tuesday
          </a>
@@ -122,8 +122,8 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="/modules/pre-course/pre-course-survey/">
-				Pre-course </a>
+			<a rel="prev" class="prev" href="/modules/monday/mon-intro/">
+				Monday </a>
 		</div>
 		<hr />
 	
@@ -131,43 +131,22 @@
 		
 			<li class=" first ">
 				<a
-						href="/modules/monday/mon-intro/">
-					Monday intro
+						href="/modules/tuesday/tues-intro/">
+					Tuesday intro
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/monday/self-intro/">
-					Self-introductions
+						href="/modules/tuesday/prepare-field-obs/">
+					Prepare field obs
 				</a>
 			</li>
 		
-			<li class="active  ">
+			<li class="active  last">
 				<a
-						href="/modules/monday/live-session/">
-					Live session
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/monday/your-field-data/">
-					Your field data
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/monday/import-gps-data/">
-					Import GPS locations
-				</a>
-			</li>
-		
-			<li class="  last">
-				<a
-						href="/modules/monday/save-geojson/">
-					Save GeoJSON
+						href="/modules/tuesday/add-field-obs/">
+					Import field obs
 				</a>
 			</li>
 		
@@ -178,7 +157,7 @@
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="/modules/tuesday/tues-intro/"> Tuesday
+			<a rel="next" class="next" href="/modules/wednesday/intro-temp/"> Wednesday
 			</a>
 		</div>
 	
@@ -186,20 +165,62 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<h2 id="join-the-live-session-on-zoom">Join the live session on Zoom</h2>
-<p><em>45 minutes</em></p>
+				<h2 id="add-your-field-observations-to-qgis">Add your field observations to QGIS</h2>
+<p><em>15 minutes</em></p>
 
-<p>If you can, join Monday’s live Zoom session, choosing either of:</p>
+<p>Re-open the QGIS project that contains the waypoints you imported previously, and <strong>import your field data</strong> by following the steps below</p>
+
+<p>Note that <em>nothing will be drawn on the map</em> after this stage!  Our spreadsheet lacks coordinate data, so QGIS cannot draw features on the map, but your field observations are stored as a data table, ready to be joined to the waypoints in the next module</p>
+
+<p>The final step below is to open the attribute table to check your data imported correctly.  Do they look the same as in the original .csv file?</p>
+
+<blockquote>
+  <ol>
+    <li><code class="language-plaintext highlighter-rouge">Layer &gt; Add Layer &gt; Add Delimited Text Layer...</code></li>
+    <li>Choose source file - click the <code class="language-plaintext highlighter-rouge">...</code> button</li>
+    <li>Ensure <code class="language-plaintext highlighter-rouge">No geometry (attribute only table)</code> is selected under <code class="language-plaintext highlighter-rouge">Geometry Definition</code>, then click <code class="language-plaintext highlighter-rouge">Add</code> and <code class="language-plaintext highlighter-rouge">Close</code></li>
+    <li>Right-click on layer in Layers tab &gt; <code class="language-plaintext highlighter-rouge">Open Attribute Table</code></li>
+    <li>Check that your imported records look sensible</li>
+  </ol>
+</blockquote>
+
+<p><br /></p>
+
+<hr />
+
+<p>Instructions including screenshots:</p>
 <ul>
-  <li>Earlier session, at 09:30 BST (London) <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Monday+early+session&amp;iso=20210517T0930&amp;p1=136&amp;am=45">Check time in your timezone</a></li>
-  <li>Later session, at 15:30 BST (London) <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Monday+late+session&amp;iso=20210517T1530&amp;p1=136&amp;am=45">Check time in your timezone</a></li>
+  <li><code class="language-plaintext highlighter-rouge">Layer &gt; Add Layer &gt; Add Delimited Text Layer...</code></li>
 </ul>
+<center><img src="/img/add-obs-qgis-017.png" alt="QGIS screenshot: Add delimited text layer" /></center>
 
-<p>We’ll use the same Zoom link for <strong>all</strong> live sessions this week: <a href="https://us02web.zoom.us/j/82834870945?pwd=RDdYczVIZHlWdk4yN3B2dUJxMk9jdz09">https://us02web.zoom.us/j/82834870945?pwd=RDdYczVIZHlWdk4yN3B2dUJxMk9jdz09</a></p>
+<p><br /></p>
 
-<p>During your chosen live session, we will work together to complete all of the learning activities for today</p>
+<ul>
+  <li>Choose source file - click the <code class="language-plaintext highlighter-rouge">...</code> button</li>
+</ul>
+<center><img src="/img/add-obs-qgis-038.png" alt="QGIS screenshot: Select file" /></center>
 
-<p>If you’re not able to join either of the live sessions, you can work solo to contribute your ideas to the collaborative documents embedded in the following pages</p>
+<p><br /></p>
+
+<ul>
+  <li>Ensure <code class="language-plaintext highlighter-rouge">No geometry (attribute only table)</code> is selected under <code class="language-plaintext highlighter-rouge">Geometry Definition</code>, then click <code class="language-plaintext highlighter-rouge">Add</code> and <code class="language-plaintext highlighter-rouge">Close</code></li>
+</ul>
+<center><img src="/img/add-obs-qgis-050.png" alt="QGIS screenshot: No geometry definition" /></center>
+
+<p><br /></p>
+
+<ul>
+  <li>Right-click on layer in Layers tab &gt; <code class="language-plaintext highlighter-rouge">Open Attribute Table</code></li>
+</ul>
+<center><img src="/img/add-obs-qgis-068.png" alt="QGIS screenshot: Save features" /></center>
+
+<p><br /></p>
+
+<ul>
+  <li>Check that your imported records look sensible</li>
+</ul>
+<center><img src="/img/add-obs-qgis-070.png" alt="QGIS screenshot: Save features" /></center>
 
 				
 
@@ -214,17 +235,9 @@
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="/modules/monday/self-intro/">
-							Self-introductions </a>
+						<a rel="prev" class="prev" href="/modules/tuesday/prepare-field-obs/">
+							Prepare field obs </a>
 				
-					</div>
-				
-					<div class="pagination-section text-sm-right col-sm-6">
-						<div class="title">
-							Next submodule:
-						</div>
-						<a rel="next" class="next" href="/modules/monday/your-field-data/"> Your field data
-						</a>
 					</div>
 				
         </div>
