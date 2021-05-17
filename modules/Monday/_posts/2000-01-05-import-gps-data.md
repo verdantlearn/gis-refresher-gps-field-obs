@@ -14,8 +14,7 @@ We anticipate that your location data may be in one of several different formats
 
 When importing GPX files, QGIS should automatically recognise the **Spatial Reference System**, otherwise known as the *projection* or *Coordinate Reference System (CRS)*.  However, if you're importing another file format, you will probably need to specify the Spatial Reference System.
 
-If you don't have your own dataset, you can download an example dataset of water beetle survey results from Northern Ireland.  
-See the [Water beetle dataset]({% link modules/Resources/_posts/2000-01-01-water-beetle-data.md %}) page in the Resources folder
+If you don't have your own dataset, you can download an example dataset of water beetle survey results from Northern Ireland.  See the [Water beetle dataset]({% link modules/Resources/_posts/2000-01-01-water-beetle-data.md %}) page in the Resources folder
 
 Remember that you can always ask for assistance in the :raised_hand: [**Help Area**](https://padlet.com/VerdantLearn_LT/GISRefresher2_HelpArea_May2021) for this course if you get stuck
 

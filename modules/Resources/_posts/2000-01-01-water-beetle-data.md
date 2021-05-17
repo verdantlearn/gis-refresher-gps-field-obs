@@ -4,4 +4,4 @@ If you don't have field data of your own, you can use an example dataset on wate
 
 You can download the survey data here:
 - [GPS locations](https://github.com/verdantlearn/gis-refresher-gps-field-obs/blob/master/datasets/waterbeetles_wpts.gpx) as .gpx file
-- [Field observations](https://github.com/verdantlearn/gis-refresher-gps-field-obs/blob/master/datasets/waterbeetles_fieldobs.csv)
+- [Field observations](https://github.com/verdantlearn/gis-refresher-gps-field-obs/blob/master/datasets/waterbeetles_fieldobs.csv) as .csv file
