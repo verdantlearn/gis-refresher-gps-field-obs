@@ -8,3 +8,25 @@ You can **download the survey** data below.  The easiest way to do this is to ri
 - [GPS locations](https://raw.githubusercontent.com/verdantlearn/gis-refresher-gps-field-obs/master/datasets/waterbeetles_wpts.gpx) as .gpx file (for Monday)
 - [GPS locations](https://raw.githubusercontent.com/verdantlearn/gis-refresher-gps-field-obs/master/datasets/waterbeetles_wpts.csv) as .csv file (for Monday)
 - [Field observations](https://raw.githubusercontent.com/verdantlearn/gis-refresher-gps-field-obs/master/datasets/waterbeetles_fieldobs.csv) as .csv file (for Tuesday)
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+Lucy's experimentation with download links - please ignore!
+- <a href="/datasets/waterbeetles_wpts.gpx" download>GPS locations</a> as .gpx file (for Monday)
