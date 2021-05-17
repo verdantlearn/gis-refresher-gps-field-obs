@@ -16,7 +16,7 @@ When importing GPX files, QGIS should automatically recognise the **Spatial Refe
 
 If you don't have your own dataset, you can download an example dataset of water beetle survey results from Northern Ireland.  See the **Water beetle dataset** page in the Resources folder above :point_up:
 
-<!-- See the [Water beetle dataset]({% link modules/Resources/_posts/2000-01-01-water-beetle-data.md %}) page in the Resources folder above -->
+Direct link here: [Water beetle dataset]({% link {{site.baseurl}}/modules/Resources/_posts/2000-01-01-water-beetle-data.md %})
 
 Remember that you can always ask for assistance in the :raised_hand: [**Help Area**](https://padlet.com/VerdantLearn_LT/GISRefresher2_HelpArea_May2021) for this course if you get stuck
 
