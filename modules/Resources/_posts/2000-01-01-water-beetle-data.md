@@ -7,4 +7,4 @@ These data are a subset of the openly-licenced water beetle survey data from the
 You can **download the survey** data below.  Clicking on the links below should open a 'Download' pop-up in your browser, asking you where to save the file
 - <a href="{{site.baseurl}}/datasets/waterbeetles_wpts.gpx" download>GPS locations</a> as **.gpx** file (for Monday)
 - <a href="{{site.baseurl}}/datasets/waterbeetles_wpts.csv" download>GPS locations</a> as **.csv** file (for Monday)
-- <a href="{{site.baseurl}}/datasets/waterbeetles_wpts.gpx" download>Field observations</a> as .csv file (for Tuesday)
+- <a href="{{site.baseurl}}/datasets/waterbeetles_fieldobs.csv" download>Field observations</a> as .csv file (for Tuesday)
