@@ -49,6 +49,6 @@ Now we are ready to complete the final exercise for today - it's time to **visua
 
 <br>
 
-- Note the distribution of records.  Those of you who know Northern Ireland will see that many of the older records are distributed around Belfast
+- Note the distribution of records.  Those of you who know Northern Ireland will see that many of the older records are clustered around Belfast
 
 <center><img src="{{site.baseurl}}/img/qgis-symbol-num-062.png" alt="QGIS screenshot: View new symbols"></center>
