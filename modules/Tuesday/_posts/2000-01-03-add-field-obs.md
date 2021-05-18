@@ -7,7 +7,7 @@ title: Import field obs
 
 Re-open the QGIS project that contains the waypoints you imported previously, and **import your field data** by following the steps below
 
-Note that *nothing will be drawn on the map* after this stage!  Our spreadsheet lacks coordinate data, so QGIS cannot draw features on the map, but your field observations are stored as a data table, ready to be joined to the waypoints in the next module
+Note that *nothing will be drawn on the map* after this stage!  Our spreadsheet lacks coordinate data, so QGIS cannot draw features on the map, but your field observations are stored and visible as a data table, ready to be joined to the waypoints in the next module
 
 The final step below is to open the attribute table to check your data imported correctly.  Do they look the same as in the original .csv file?
 

@@ -15,7 +15,7 @@ Today's GIS exercises are all about **add your fieldwork data** to the map.  The
 
 Before importing your field observations into QGIS, you need to ensure they are clean and consistent.  A good way to check for problems is to open your data in Excel and use the Filter or Pivot Table tools to examine them
 
-1. Include a column **waypoint name**
+1. Include a column **waypoint name**, or whatever the column is that you're using to match records between the two datasets 
 2. Do you have missing datapoints, and are they indicated the same way throughout the dataset?  QGIS can cope with empty cells, and empty cells is the best way to, unless you also have sites that were not surveyed, in which an empty cell might be ambiguous, and you should include  
 3. Check that **categorical** data are consistent i.e. species/site names or vegetation types are always spelled the same way.  Do you have the correct number of categories?
 4. Check that **quantitative** data make sense.  Are there any extreme values (much lower or higher than expected) which might indicate a misplaced decimal point or typing error?
