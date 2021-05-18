@@ -9,4 +9,7 @@ Today's learning objective is:
 
 ## Tasks
 Here are today's tasks:
-1. **Introduce yourself** on the course map, and reply to someone else (**5** minutes)
+2. Visualise **categorical** field data (**15** minutes)
+3. **Calculate** a new field (**10** minutes)
+2. Visualise **numerical** field data (**15** minutes)
+
