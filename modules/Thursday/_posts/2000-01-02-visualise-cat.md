@@ -1,6 +1,5 @@
 ---
 title: Visualise categories
-published: false
 ---
 
 ## Visualise categorical field data

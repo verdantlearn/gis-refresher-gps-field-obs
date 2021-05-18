@@ -1,6 +1,5 @@
 ---
 title: Calculate a new field
-published: false
 ---
 
 ## Calculate a new field

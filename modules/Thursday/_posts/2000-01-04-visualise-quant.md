@@ -1,12 +1,14 @@
 ---
 title: Visualise numbers
-published: false
 ---
 
 ## Visualise numerical field data
 *15 minutes*
 
-If you're working with you own field data, choose a field that contains numerical data such as number of individuals sighted, tree diameter.  For the water beetles data, we'll use the `Year` column we created in the previous exercise
+Now we are ready to complete the final exercise for today - it's time to **visualise numerical data**!
+
+- If you're working with *your own field data*, choose a field that contains numerical data such as plant density or number of hunting snares
+- For the *water beetles example*, we'll use the *Year* column we created in the previous exercise
 
 > 1. Open the layer properties - double-click or right-click > `Properties`)
 1. In the `Symbology` tab, select `Graduated` from the dropdown menu at the top
