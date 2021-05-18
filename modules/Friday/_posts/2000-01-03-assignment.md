@@ -23,9 +23,9 @@ Please include the following in **your own Padlet post**:
 1. The **title** of your mini project
 2. **Your name**
 3. A **screenshot** of QGIS showing your chosen dataset (*optional*).  You can upload this to your post after clicking on the pink '`+`' button - click the up arrow button to Upload, and choose your screenshot
-4. One sentence **describing your dataset**.  What data, from which source?  If you didn't find suitable data, briefly state where you looked
-5. One sentence **assessing its suitability** for your purpose.  Does it fit your needs?  What shortcomings does it have?  If you didn't find a dataset, explain why the data you *did* look at where unsuitable
-6. One sentence reflecting on **your feelings** about this experience.  What was your experience doing the week's tasks?  Do you feel empowered, more confident, curious or excited, or do you feel frustrated, confused, disheartened, or another emotion?  Why do you feel this way?  
+4. One sentence **describing your dataset**.  
+5. One sentence **explaining the symbology**.  ...
+6. One sentence **describing any challenges** you faced.  *What was your experience doing the week's tasks?  Do you feel empowered, more confident, curious or excited, or do you feel frustrated, confused, disheartened, or another emotion?  Why do you feel this way?*  
 7. One sentence on your **next steps**.  How might you build on what you've achieved this week, and take your efforts forward?
 
 Submit your assignment below, or open it in a new tab using this link: [https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021](https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021)
