@@ -6,7 +6,7 @@ published: false
 ## Join the live session on Zoom
 *45 minutes*
 
-We invite you to join Friday's live Zoom session if you're available at either of these times:
+We invite you to join Friday's **live session on Zoom** if you're available at either of these times:
 - Earlier session, at 09:30 BST (London) [Check time in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Friday+early+session&iso=20210521T0930&p1=136&am=45)
 - Later session, at 15:30 BST (London) [Check time in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=VerdantLearn+GIS+refresher+2%3A+Friday+late+session&iso=20210521T1530&p1=136&am=45)
 

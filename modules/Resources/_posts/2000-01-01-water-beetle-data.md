@@ -1,3 +1,7 @@
+---
+title: Water beetle data
+---
+
 # Water beetle dataset
 
 If you don't have field data of your own, you can use an example dataset on water beetles in Northern Ireland, collected by the Balfour-Browne Club over more than a century

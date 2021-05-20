@@ -7,7 +7,7 @@ published: false
 *20 minutes*
 
 Submit a mini assignment to demonstrate your progress this week, comprised of two elements:
-> 1. A description of your experience alongside a screenshot of your dataset in QGIS
+> 1. A description of your experience alongside a screenshot of your dataset in QGIS (this page)
 > 2. Feedback to one of your peers (next page)
 
 <br>
@@ -23,10 +23,10 @@ Please include the following in **your own Padlet post**:
 1. The **title** of your mini project
 2. **Your name**
 3. A **screenshot** of QGIS showing your chosen dataset (*optional*).  You can upload this to your post after clicking on the pink '`+`' button - click the up arrow button to Upload, and choose your screenshot
-4. One sentence **describing your dataset**.  
-5. One sentence **explaining the symbology**.  ...
-6. One sentence **describing any challenges** you faced.  *What was your experience doing the week's tasks?  Do you feel empowered, more confident, curious or excited, or do you feel frustrated, confused, disheartened, or another emotion?  Why do you feel this way?*  
-7. One sentence on your **next steps**.  How might you build on what you've achieved this week, and take your efforts forward?
+4. A brief description of your **dataset** (1-2 sentences), if it was from your own field work
+5. An explanation of the **symbology** - what information do the symbols communicate?
+6. Any **challenges** you faced - did you have plans that you were unable to achieve?  What held you back?
+7. Your **next steps**.  How might you build on what you've achieved this week, and take your efforts forward?
 
 Submit your assignment below, or open it in a new tab using this link: [https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021](https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021)
 

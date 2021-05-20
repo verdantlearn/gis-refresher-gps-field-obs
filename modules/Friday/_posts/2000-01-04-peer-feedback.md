@@ -10,7 +10,7 @@ Respond to one of your peers by **commenting** on their assignment post.  This s
 1. **Your name**
 2. **Positive feedback**: What have they done well?
 3. **Question/Suggestion**: A suggestion for improvement or extending what they've done, or a question if there's something you'd like them to clarify
-4. **Reflection**: What have you learned from their work that you can apply to your own?
+4. **Reflection**: Is there something you've learned from their work that you can apply to your own?
 
 Direct link: [https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021](https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021)
 
