@@ -1,6 +1,5 @@
 ---
 title: Live session
-published: false
 ---
 
 ## Join the live session on Zoom

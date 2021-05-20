@@ -1,11 +1,12 @@
 ---
 title: Post-course survey
-published: false
 ---
 
 ## Post-course survey
 
-Please complete this post-course survey at the end of the week.  Thank you.
+Well done!  You have completed this short refresher course  :star:
+
+Please complete the post-course survey - we really value your input and feedback.  Thank you.
 
 If you can't view the survey embedded below, you can find it here: [Post-course survey](https://forms.gle/AQzjeRvuJujwo6KK6)
 

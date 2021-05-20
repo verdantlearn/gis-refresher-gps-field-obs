@@ -1,6 +1,5 @@
 ---
 title: Assignment
-published: false
 ---
 
 ## Your mini assignment
@@ -12,20 +11,18 @@ Submit a mini assignment to demonstrate your progress this week, comprised of tw
 
 <br>
 
-You can complete this assignment *even if you didn't succeed* in combining your GPS locations and field records!  
+You can complete this assignment *even if you didn't succeed* in combining your GPS locations and field records!  Simply describe how far you managed to get, and devote more space to describing the obstacles you faced
 
-Simply describe how far you managed to get, or omit the screenshot and adapt your answers as suggested below.
-
-It's just as important for us to talk about failure as success in our work, and figure out how we can learn from it together.  It may be that you haven't collected your field data yet, or you need to spend more time preparing your field records before using them in a GIS project.  We appreciate your honesty, and will harness it to improve the support we offer to help other conservationists succeed!
+It's just as important for us to talk about failure as success in our work, and figure out how we can learn from it together.  It may be that you haven't collected your field data yet, or you need to spend more time preparing your field records before using them in a GIS project.  We appreciate your honesty, and will harness it to improve the support we offer to help yourself and other conservationists succeed in the future!
 
 ### Showcase your own work
 Please include the following in **your own Padlet post**:
 1. The **title** of your mini project
 2. **Your name**
 3. A **screenshot** of QGIS showing your chosen dataset (*optional*).  You can upload this to your post after clicking on the pink '`+`' button - click the up arrow button to Upload, and choose your screenshot
-4. A brief description of your **dataset** (1-2 sentences), if it was from your own field work
+4. A brief description of your own **dataset** (1-2 sentences), or tell us if you used the water beetle data
 5. An explanation of the **symbology** - what information do the symbols communicate?
-6. Any **challenges** you faced - did you have plans that you were unable to achieve?  What held you back?
+6. Any **challenges** you faced.  Did you have plans that you were unable to achieve?  What held you back?
 7. Your **next steps**.  How might you build on what you've achieved this week, and take your efforts forward?
 
 Submit your assignment below, or open it in a new tab using this link: [https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021](https://padlet.com/VerdantLearn_LT/GISRefresher2_Assignment_May2021)
